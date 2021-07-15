@@ -1,67 +1,95 @@
-#banner{
-    margin-top: 8px;
-    width: 100%;
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
 }
 
-.principal{
-    text-align: center;
-    background: #CCCCCC;
-    padding: 30px;
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.texto-principal{
-    width: 940px; 
-    display: inline-block;
-    line-height: 24px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.alinhar-centro{
-    font-size: 24px;
+nav a{
+    text-transform: uppercase;
+    color: #000;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 16px;
+    font-size: 22px;
+    text-decoration: none;
+
 }
 
-p{
-    text-align: center;
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
 }
 
-#missao{
-    font-size: 20px;
+.produtos{
+    padding: 50px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
-em strong{
-    color: #ff0000;
-}
-
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
-}
-
-.itens{
-    font-style: italic;
-}
-
-
-.lista{
+.produtos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
 }
 
-.imagem-beneficio{
-    width: 50%;
+.produtos li:hover{
+    border-color: #c78c19;
 }
 
-.container-beneficios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.produtos li:active{
+    border-color: #008a00;
 }
 
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+
+footer{
+    text-align: center;
+    background: url(../img/imagens/bg.jpg);
+    padding: 45px 0;
+}
+
+.copy{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}

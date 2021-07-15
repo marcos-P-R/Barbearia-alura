@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <title>Contato - Barbearia Alura</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <h1><img src="./img/imagens/logo.png" alt="logo da Barbearia"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="70" rows="10"></textarea>
+
+            <div>
+                <p>Como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="email" id="radio-telefone">
+
+                <label for="radio-whatsapp">WhatsApp</label>
+                <input type="radio" name="contato" value="email" id="radio-whatsapp">
+            </div>
+
+            <label for=""><input type="checkbox"> Gostaria de receber nossas novidade pelo email?</label>
+            <input type="submit" value="Enviar formulário">
+        </form>
+    </main>
+    <footer>
+        <img src="./img/imagens/logo-branco.png" alt="">
+        <p class="copy">&copy; Copyright BarbeariaAlura - 2021</p>
+    </footer>
+</body>
+</html>
