@@ -1,9 +1,9 @@
-body{
-    background: #CCCCCC;
-}
-
 #banner{
     width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
 }
 
 h1{
@@ -22,6 +22,14 @@ em strong{
     color: #ff0000;
 }
 
+.beneficios{
+    background: #ffffff;
+}
+
 .itens{
     font-style: italic;
+}
+
+h2{
+    text-align: center;
 }
