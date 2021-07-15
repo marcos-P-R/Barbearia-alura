@@ -4,8 +4,15 @@
 }
 
 .principal{
+    text-align: center;
     background: #CCCCCC;
     padding: 30px;
+}
+
+.texto-principal{
+    width: 940px; 
+    display: inline-block;
+    line-height: 24px;
 }
 
 .titulo-principal{
