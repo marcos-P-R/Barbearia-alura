@@ -7,7 +7,11 @@
     padding: 30px;
 }
 
-h1{
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.alinhar-centro{
     text-align: center;
 }
 
@@ -32,9 +36,6 @@ em strong{
     font-style: italic;
 }
 
-h2{
-    text-align: center;
-}
 
 ul{
     display: inline-block;
